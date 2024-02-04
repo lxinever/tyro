@@ -8,7 +8,7 @@ title: 毛玻璃🎉
 
 ## 一，突发奇想<Badge type="info" style="color: #76c6df"> 灵感一现 </Badge>
 
-不知道各位有没有注意这样一个效果，在Element Plus官网上，当你向下滚动滚动条时，导航栏会出现一种“模糊”的现象，这个就是*毛玻璃* 效果，其实就是用到了CSS的一个属性：<span style="color: #76c6df"> backdrop-filter </span> 也就是**滤镜**属性，还有一个和滤镜相关的属性：<span style="color: #76c6df"> filter </span>，但是它们各自作用不一样。
+不知道各位有没有注意这样一个效果，在Element Plus官网上，当你向下滚动滚动条时，导航栏会出现一种“模糊”的现象，这个就是*毛玻璃* 效果，其实就是用到了CSS的一个属性：<span style="color: #76c6df"> backdrop-filter </span> 也就是**滤镜**属性，还有一个和滤镜相关的属性：<span style="color: #76c6df"> filter </span>，但是它们作用不一样。
 - backdrop-filter 该属性可以让你为一个元素后面区域添加图形效果。它适用于元素背后的所有元素，为了看到效果，必须使元素或其背景至少部分透明。
 - filter 该属性将模糊或颜色偏移等图形效果应用于元素
 
@@ -70,7 +70,7 @@ title: 毛玻璃🎉
 毛玻璃其实用到了**saturate** 图像饱和度滤镜 
 
 <!-- <img :src="$withBase('/imgs/mbl/xgt.png')" alt="效果图"> -->
-![效果图](/imgs/mbl/xgt.png)
+代码如下
 
 ```html
 <div class="third">
@@ -117,3 +117,6 @@ title: 毛玻璃🎉
     background-color: red;
 }
 ```
+效果
+
+![效果图](/imgs/mbl/xgt.png)

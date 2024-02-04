@@ -8,7 +8,7 @@ title: 数组方法📄
 
 **以方法首字母排序**
 
-| 序号  | 方法名         | 参数                                                            | 返回值                                           | 改变原数组 |
+| 序号 | 方法名         | 参数                                                            | 返回值                                           | 改变原数组 |
 | ---- | -------------- | --------------------------------------------------------------- | ------------------------------------------------ | ---------- |
 | 1    | at             | index                                                           | 索引对应值                                       | 否         |
 | 2    | concat         | array                                                           | 新数组                                           | 否         |
@@ -21,7 +21,7 @@ title: 数组方法📄
 | 9    | findIndex      | function(value,index,arr){},thisArg                             | 数组第一个符合的值的索引，若都不符合返回-1       | 否         |
 | 10   | flat           | depth                                                           | 新数组                                           | 否         |
 | 11   | flatMap        | function(this,value,index,arr){},thisArg                        | 新数组                                           | 否         |
-| 12   | forEach        | function(value,index,arr){},thisArg                             | 无                                               | 否/是         |
+| 12   | forEach        | function(value,index,arr){},thisArg                             | 无                                               | 否/是      |
 | 13   | includes       | searchElement,fromIndex                                         | 布尔值                                           | 否         |
 | 14   | indexOf        | searchElement,fromIndex                                         | 目标值第一次出现在数组中的索引，若不存在返回-1   | 否         |
 | 15   | join           | string，若无则默认逗号                                          | 字符串                                           | 否         |
@@ -30,8 +30,8 @@ title: 数组方法📄
 | 18   | map            | function(value,index,arr){},thisArg                             | 原数组                                           | 是         |
 | 19   | pop            | 无                                                              | 数组最后一个元素                                 | 是         |
 | 20   | push           | value                                                           | 数组长度                                         | 是         |
-| 21   | reduce         | function(this,value,index,arr){}，currentValue,currentIndex,arr | ---                                             | 否         |
-| 22   | reduceRight    | function(this,value,index,arr){}，currentValue,currentIndex,arr | ---                                             | 否         |
+| 21   | reduce         | function(this,value,index,arr){}，currentValue,currentIndex,arr | ---                                              | 否         |
+| 22   | reduceRight    | function(this,value,index,arr){}，currentValue,currentIndex,arr | ---                                              | 否         |
 | 23   | reverse        | 无                                                              | 原数组                                           | 是         |
 | 24   | shift          | 无                                                              | 数组中第一个元素                                 | 是         |
 | 25   | slice          | start,end                                                       | 新数组                                           | 否         |
@@ -40,8 +40,8 @@ title: 数组方法📄
 | 28   | splice         | start,deleteCount,value                                         | 元素或数组                                       | 是         |
 | 29   | toLocaleString | 无                                                              | 字符串                                           | 否         |
 | 30   | toString       | 无                                                              | 字符串                                           | 否         |
-| 31   | toSorted       | 同sort                                                          | 新数组                                           | 否         |
-| 32   | toSpliced      | 同splice                                                        | 新数组                                           | 否         |
+| 31   | toSorted       | 同 sort                                                         | 新数组                                           | 否         |
+| 32   | toSpliced      | 同 splice                                                       | 新数组                                           | 否         |
 | 33   | unshift        | value                                                           | 数组长度                                         | 是         |
 | 34   | values         | 无                                                              | 可迭代的值                                       | 否         |
 | 35   | with           | index,value                                                     | 新数组                                           | 否         |
